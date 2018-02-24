@@ -9,3 +9,7 @@ The examples already contain the most recent versions of the two Kotlin WASM lib
 ## How to serve files
 
 https://github.com/GoogleChromeLabs/simplehttp2server
+
+
+
+https://github.com/JetBrains/kotlinconf-spinner/blob/master/kotlin-native/samples/fullstack/clients/webassembly/src/main/kotlin/StatView.kt
