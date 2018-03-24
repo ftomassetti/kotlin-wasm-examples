@@ -18,7 +18,7 @@ apply plugin: 'konan'
 konanArtifacts {
     
     // This artifact will be built only for Linux and Wasm32
-    program('hello', targets: ['wasm32']) { 
+    program('stats', targets: ['wasm32']) {
          srcDir 'src/main/kotlin'        
          libraries {
              useRepo 'lib'

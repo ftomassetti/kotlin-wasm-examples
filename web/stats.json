@@ -2,23 +2,23 @@
   "colors" : [
     {
       "color": 1,
-      "counter": 1
+      "counter": 4
     },
     {
       "color": 2,
-      "counter": 7
+      "counter": 14
     },
     {
       "color": 3,
-      "counter": 8
+      "counter": 9
     },
     {
       "color": 4,
-      "counter": 1
+      "counter": 7
     },
     {
       "color": 5,
-      "counter": 4
+      "counter": 6
     }
   ]
 }
