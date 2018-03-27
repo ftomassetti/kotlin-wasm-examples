@@ -16,6 +16,15 @@
   <body>
     <canvas id="myCanvas">
   </canvas> 
-    <script wasm="./stats.wasm" src="./stats.wasm.js"></script>
+    <script src="./stats.wasm.js"></script>
+    <script>
+        konan.libraries.push({"imported_igotdata":function(msg){ alert("I got the data, updating");}})
+        var filename = "./stats.wasm";
+        fetch(filename).then( function(response) {
+            return response.arrayBuffer();
+        }).then(function(arraybuffer) {
+            instantiateAndRun(arraybuffer, [filename]);
+        });
+    </script>
   </body>
 </html>

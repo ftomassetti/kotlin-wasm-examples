@@ -14,6 +14,7 @@ object Model {
     fun tuple(time: Int) = backLog.slice(time * tupleSize .. (time + 1) * tupleSize - 1)
 
     fun push(new: Array<Int>) {
+        igotdata()
         assert(new.size == tupleSize)
 
         new.forEachIndexed { index, it ->
@@ -26,3 +27,6 @@ object Model {
         }
     }
 }
+
+@SymbolName("imported_igotdata")
+external public fun igotdata()

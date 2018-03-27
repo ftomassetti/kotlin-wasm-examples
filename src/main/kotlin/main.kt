@@ -25,7 +25,8 @@ fun loop(canvas: Canvas) {
 
 fun main(args: Array<String>) {
     val canvas = document.getElementById("myCanvas").asCanvas
-    setInterval(100) {
+    setInterval(1000) {
         loop(canvas)
     }
 }
+
